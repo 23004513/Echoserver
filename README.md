@@ -29,7 +29,7 @@ HOST = "127.0.0.1"  # The server's hostname or IP address
 PORT = 65432  # The port used by the server
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
-    s.sendall(b"Hello, world")
+    s.sendall(b"N.Navya Sree  212223040138")
     data = s.recv(1024)
 print(f"Received {data!r}")
 ```
@@ -68,11 +68,13 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 ## OUTPUT:
 ## SERVER SIDE:
 
-![image](https://github.com/user-attachments/assets/a6215eea-c390-4373-a8c7-3b80384b143a)
+![Screenshot 2024-09-04 102351](https://github.com/user-attachments/assets/7db9f18b-da9f-4cd4-b356-e8498e39d252)
+
 
 ## CLIENT SIDE:
 
-![image](https://github.com/user-attachments/assets/2bba02cd-01db-4fab-85c6-0959284e033e)
+![Screenshot 2024-09-04 102333](https://github.com/user-attachments/assets/e311dca1-a8b5-4f61-9b52-aca6dc82463a)
+
 
 
 ## RESULT:
